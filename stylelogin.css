@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(images/bg_img.jpg);
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+	
+	
+}
+.heading {
+	text-align: center;
+	margin-top: 65px;
+	font-size: 4rem;
+	color: #10221b;
+}
+  
+.header {
+	text-decoration: none;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 2rem 9%;
+	z-index: 1000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+  
+.header.active {
+	background: #fff;
+	-webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+			box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+  
+.header .logo {
+	text-decoration: none;
+	margin-right: auto;
+	font-size: 1.7rem;
+	color: #e3e3e3;
+	font-weight: bolder;
+}
+  
+.header .logo i {
+	text-decoration: none;
+	color: #e3e3e3;
+	padding-right: 3px;
+}
+  
+.header .navbar a {
+	margin-left: 2rem;
+	font-size: 1rem;
+	color: #10221b;
+}
+  
+.header .navbar a:hover {
+	color: #ffffff;
+}
+  
+.header .navbar #nav-close {
+	font-size: 5rem;
+	cursor: pointer;
+	color: #10221b;
+	display: none;
+}
+  
+.header .icons a,
+.header .icons div {
+	font-size: 2.5rem;
+	margin-left: 2rem;
+	cursor: pointer;
+	color: #10221b;
+}
+  
+.header .icons a:hover,
+.header .icons div:hover {
+	color: #219150;
+}
+  
+.header #menu-btn {
+	display: none;
+}
+.container{
+
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #cecece;
+	border-radius: 20px;
+	opacity: 100%;
+	opacity: 65%;
+}
+.label{
+	padding: 30px 130px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	color: #000000;
+}
+.login_form{
+	padding: 20px 40px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+}
+.login_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 8px;
+}
+.login_form .font2{
+	margin-top: 30px;
+}
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #00641e;
+	border-radius: 3px;
+	border: 1px solid #005b27;
+	transition: .5s;
+	border-radius: 30px;
+}
+.login_form button:hover{
+	background: #000000;
+	transition: .5s;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
